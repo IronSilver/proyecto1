@@ -6,6 +6,11 @@ body {
 }
 
 
+#principal {
+    display: inline-block;
+    margin-left: 10px;
+}
+
 
 h1 {
     margin-left: 32%;
@@ -42,11 +47,6 @@ h1 {
     100%{margin-left: 15%;}
 }
 
-
-#principal {
-    display: inline-block;
-    margin-left: 10px;
-}
 
 .enlace {
     color: chartreuse;
