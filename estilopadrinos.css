@@ -42,6 +42,12 @@ h1 {
     100%{margin-left: 15%;}
 }
 
+
+#principal {
+    display: inline-block;
+    margin-left: 10px;
+}
+
 .enlace {
     color: chartreuse;
     text-decoration: none;
