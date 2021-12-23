@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#principal {
+    display: inline-block;
+    color: RED;
+    margin-left: 10px;
+}
+
+
+
+h1 {
+    margin-left: 30%;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+}
+
+
+#linea__uno {
+    
+    background-color: #01c4e7;
+    display: block;
+    width: 10%;
+    height: 6px;
+    border-radius: 2px;
+    animation-name:linea__uno;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes linea__uno {
+    0% {margin-left: 10%;}
+ /*   10%{margin-left: 15%;}
+    20%{margin-left: 25%;}
+    30%{margin-left: 35%;}
+    40%{margin-left: 45%;}
+    50%{margin-left: 55%;}
+    60%{margin-left: 65%;}
+    70%{margin-left: 75%;}
+    80%{margin-left: 85%;}
+    90%{margin-left: 95%;}*/
+    50%{margin-left: 80%;}
+    100%{margin-left: 10%;}
+}
+
+.enlace {
+    color: red;
+    text-decoration: none;
+}
+
+h2 {
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    width: 394px;
+    height: 40px;
+    background-color: blueviolet;
+    padding-top: -200px;
+    color: white;
+    display: flexbox;
+    font-size: 25px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+video {
+    margin-top: 0;
+    display: flexbox;
+    margin-left: 10px;
+    width: 30%;
+    border: 5px solid blueviolet ;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
