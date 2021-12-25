@@ -55,6 +55,22 @@
                 <img id="coraje" src="coraje.jpg">  
                 <img id="chicas__poderosas" src="chicas_superpoderosas.jpg">  
                 <img src="billiymandy.jpg">  
+		    
+		<form action="">
+                    <div class="nombre">
+                        <label for="nombre" class="texto_form">Escribe tu nombre:</label><br>
+                        <input type="text" id="nombre" class="cuadros">
+                    </div>
+                    <div>
+                        <label for="mensaje" class="texto_form">Escribe tu mensaje:</label><br>
+                        <textarea id="mensaje" cols="30" rows="5" class="cuadros"></textarea>
+                    </div>
+                    <div class="caja_boton">
+                        <input type="button" class="texto_form" id="boton" value="Enviar mensaje" onclick="leeTexto()">
+                    </div>
+                </form>
+                <hr>
+		<div id="respuesta" class="cuadros"></div>
                 
             </div>
         </aside>
