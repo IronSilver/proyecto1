@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="estilopadrinos.css">
 		<title>Title</title>
+        <script src="padrinos_magicos.js"></script>
 	</head>
     <body>
         <header>
@@ -13,8 +14,7 @@
             <div id="linea__uno"></div>
         </header>
         <div class="caja_video">
-            <h2>Intro</h2>
-            <video src="padrinosmagicos.mp4" controls></video>
+            <video src="padrinosmagicos.mp4" title="Intro" controls></video>
         </div>         
         <div class="sinopsis" title="sinopsis">Los padrinos mágicos gira en torno a Timmy Turner, un niño de diez años que desea una vida perfecta. Desafortunadamente, sus padres trabajan a tiempo completo y con frecuencia le descuidan y 
                 le dejan a cuidados de una niñera malvada, Vicky, que se deleita atormentándolo.</div> <br>
@@ -25,5 +25,70 @@
         <img src="AJ.jpg" title="AJ" class="imagenes">    
         <img src="Viky.jpg" title="Viky" class="imagenes" id="Viky">
 
+        <h3 class="Juego_preguntas">¿Qué tanto sabes sobre la serie?</h3>        
+        
+        <div class="contenedor">
+        <div class="tarjeta">
+            <p class="pregunta1">¿Quién es la esposa de Cosmo?</p>
+            <img src="CosmoyWanda.jpg" class="CosmoyWanda">
+            <form class="formulario">
+                <input type="button" class="respuestas" id="Timmy" value="Viky" onclick="timmy()">
+                <input type="button" class="respuestas" id="El ada de los dientes" value="El ada de los dientes" onclick="Ada()">
+                <input type="button" class="respuestas" id="Wanda" value="Wanda" onclick="respuesta()">
+            </form>
+        </div>
+
+        <div class="tarjeta2">
+            <p class="pregunta2">¿En qué episodio Timmy desea<br> no haber existido?</p>
+            <img src="Timmy_fantasma.jpg" class="Timmy_fantasma">
+            <form class="formulario2">
+                <input type="button" class="respuestas2" id="R1_2" value="Es una vida de deseo" onclick="r1_2()">
+                <input type="button" class="respuestas2" id="R2_2" value="El gran problema" onclick="r2_2()">
+                <input type="button" class="respuestas2" id="R3_2" value="Un deseo condicionado" onclick="r3_2()">
+            </form>
+        </div>
+
+        <div class="tarjeta3">
+            <p class="pregunta3">¿Por qué es tan especial este Muffin?</p>
+            <img src="Muffin.jpg" class="muffin">
+            <form class="formulario3">
+                <input type="button" class="respuestas3" id="R1_3" value="Siempre tendrás padrinos mágicos" onclick="r1_3()">
+                <input type="button" class="respuestas3" id="R2_3" value="Te da un deseo libre de reglas" onclick="r2_3()">
+                <input type="button" class="respuestas3" id="R3_3" value="Enamoras a quien tu quieras" onclick="r3_3()">
+            </form>
+
+        </div>   
+
+        <div class="tarjeta4">
+            <p class="pregunta4">¿Para qué se puso ropa de <br> moda Timmy?</p>
+            <img src="Timmy_rico.jpg" class="Timmy_rico">
+            <form class="formulario3">
+                <input type="button" class="respuestas4" id="R1_4" value="Para impresionar a Trixie" onclick="r1_4()">
+                <input type="button" class="respuestas4" id="R2_4" value="Para que nadie lo molestara" onclick="r2_4()">
+                <input type="button" class="respuestas4" id="R3_4" value="Para detener a Crocker" onclick="r3_4()">
+            </form>    
+        </div>
+
+        <div class="tarjeta5">
+            <p class="pregunta5">¿Cómo se llama el?</p>
+            <img src="Jorgen_Von_Estrangulo.jpg" class="Jorgen">
+            <form class="formulario4">
+                <input type="button" class="respuestas5" id="R1_5" value="Crocker" onclick="r1_5()">
+                <input type="button" class="respuestas5" id="R2_5" value="Chester" onclick="r2_5()">
+                <input type="button" class="respuestas5" id="R3_5" value="Jorgen Von Estrangulo" onclick="r3_5()">
+            </form>    
+        </div>
+
+
+        <div class="tarjeta6">
+        <form>
+            <input type="button" value="Pulsa para ver tus resultados" id="boton" onclick="total()">
+        </form>
+        <br>
+        <textarea id="Total" cols="30" rows="5" class="cuadros"></textarea>
+        </div>
+
+
+        
     </body>
 </html>    
