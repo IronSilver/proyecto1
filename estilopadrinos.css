@@ -518,11 +518,9 @@ video {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1080px) {
     
-    header {
-        margin-top: 50px;
-    }
+    
     
     .caja_video {
         margin-left: 5%;
