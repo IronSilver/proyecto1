@@ -5,15 +5,15 @@ body {
     padding: 0;
 }
 
-
 #principal {
     display: inline-block;
     margin-left: 10px;
 }
 
 
+
 h1 {
-    margin-left: 30%;
+    margin-left: 32%;
     color: white;
     font-size: 30px;
     display: inline-block;
@@ -47,7 +47,6 @@ h1 {
     100%{margin-left: 15%;}
 }
 
-
 .enlace {
     color: chartreuse;
     text-decoration: none;
@@ -62,7 +61,7 @@ h2 {
     text-align: center;
     width: 100%;
     height: 30px;
-    color: white;
+    color: #fff;
     font-size: 25px;
     border: 2px solid #01c4e7;
     border-bottom: none;
@@ -72,17 +71,14 @@ h2 {
 }
 
 video {
-    margin-top: -22px;
     width: 100%;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 8px;
     border:2px solid #01c4e7;
-    border-top: none;
 }
 
 .caja_video {
     margin-left: 17%;
-    margin-top: 70px;
+    margin-top: 80px;
     display: inline-block;
     width: 20%;
     height: 325px;
@@ -93,8 +89,8 @@ video {
     padding: 1%;
     font-size: 20px;
     margin-left: 10%;
-    margin-top: 90px;
-    position: fixed;
+    margin-top: 80px;
+    position: absolute;
     display: inline-block;
     border: 2px solid #01c4e7;
     border-radius: 5px;
@@ -109,7 +105,7 @@ video {
     border-top: 2px solid #01c4e7;
     border-bottom: 2px solid #01c4e7;
     height: 130px;
-    margin-top: -60px;
+    margin-top: -80px;
 }
 
 #cosmo {
@@ -119,4 +115,404 @@ video {
 
 #Viky {
     border-right: 2px solid #01c4e7;
+}
+
+
+
+
+.Juego_preguntas {
+    margin-left: 25%;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    background-color:indigo;
+    width: 50%;
+    height:30px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.contenedor {
+    width: 100%;
+    height: 445px;
+    background-color:none;
+}
+
+
+.tarjeta {
+    background-color: #fff;
+    padding: 0;
+    width: 24%;
+    height: 390px;
+    margin-top: 50px;
+    margin-left: 4.5%;
+    padding-top: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.CosmoyWanda {
+    margin-top: 0;
+    width: 82.4%;
+    margin-left: 8.4%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pregunta1 {
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+    width: 82.4%;
+    margin-left: 8.4%;
+    height: 22px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+}
+
+
+.respuestas {
+    padding-top: 3px;
+    font-family: sans-serif;
+    margin-top: 8px;
+    width: 82.4%;
+    margin-left: 8.4%;
+    height: 22px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-style: none;
+    border-radius: 10px;
+
+}
+
+.respuestas:hover {
+    background-color: rgba(77, 3, 129, 0.815);
+}
+
+#Timmy {
+    margin-top: 30px;
+}
+
+
+
+
+
+.tarjeta2 {
+    background-color: #fff;
+    width: 24%;
+    height: 385px;
+    margin-left: 9.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+.pregunta2 {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+    width: 82.4%;
+    margin-left: 8.4%;
+    height: 38px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.Timmy_fantasma {
+    height: 180px;
+    width: 82.4%;
+    margin-left: 8.4%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.respuestas2 {
+    padding-bottom: 7px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    margin-top: 8px;
+    width: 82.4%;
+    margin-left: 8.4%;
+    height: 20px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-style: none;
+    border-radius: 10px;
+
+}
+
+.respuestas2:hover {
+    background-color: rgba(77, 3, 129, 0.815);
+}
+
+#R1_2 {
+    margin-top: 30px;
+}
+
+
+.tarjeta3 {
+    background-color: #fff;
+    width: 24%;
+    height: 390px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 9.5%;
+    margin-top: -20px;
+}
+
+.pregunta3 {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+    width: 82.4%;
+    margin-left: 8.4%;
+    height: 38px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.muffin{
+    height: 180px;
+    width: 82.4%;
+    margin-left: 8.4%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.respuestas3{
+    padding-bottom: 7px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    margin-top: 8px;
+    width: 82.4%;
+    margin-left: 8.4%;
+    height: 20px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.respuestas3:hover {
+    background-color: rgba(77, 3, 129, 0.815);
+}
+
+#R1_3 {
+    margin-top: 30px;
+}
+
+
+.tarjeta4 {
+    background-color: #fff;
+    width: 24%;
+    height: 390px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 4.5%;
+    margin-top: 130px;
+    display: inline-block;
+}
+
+.pregunta4 {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+    width: 82.4%;
+    margin-left: 8.4%;
+    height: 38px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.Timmy_rico {
+    height: 180px;
+    width: 82.4%;
+    margin-left: 8.4%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.respuestas4 {
+    padding-bottom: 7px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    margin-top: 8px;
+    width: 82.4%;
+    margin-left: 8.4%;
+    height: 20px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.respuestas4:hover {
+    background-color: rgba(77, 3, 129, 0.815);
+}
+
+#R1_4 {
+    margin-top: 30px;
+}
+
+
+
+
+.tarjeta5 {
+    background-color: #fff;
+    width: 24%;
+    height: 390px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 9.5%;
+    margin-top: 130px;
+    display: inline-block;
+}
+
+.pregunta5 {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+    width: 82.4%;
+    margin-left: 8.4%;
+    height: 38px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.Jorgen {
+    width: 82.4%;
+    margin-left: 8.4%;
+    height: 187px;
+    margin-top: -13px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.respuestas5 {
+    padding-bottom: 7px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    margin-top: 8px;
+    width: 82.4%;
+    margin-left: 8.4%;
+    height: 20px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.respuestas5:hover {
+    background-color: rgba(77, 3, 129, 0.815);
+}
+
+#R1_5 {
+    margin-top: 30px;
+}
+
+
+
+#boton {
+    margin-left: 5%;
+    width: 91.9%;
+    height: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    border: 3px solid rgb(236, 8, 8);
+    background-color: rgb(236, 8, 8);
+    color: white;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cuadros {
+    font-size: 25px;
+    border-style: none;
+    border: 3px solid rgb(236, 8, 8);
+    background-color: black;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    width: 90%;
+    height: 80px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.tarjeta6 {
+    background-color: none;
+    width: 300px;
+    height: 150px;
+    padding-top: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 9.5%;
+    margin-top: 130px;
+    display: inline-block;
 }
