@@ -516,3 +516,17 @@ video {
     margin-top: 130px;
     display: inline-block;
 }
+
+
+@media screen and (max-width: 320px) {
+    
+    .caja_video {
+        margin-left: 5%;
+        margin-top: 80px;
+        display: block;
+        width: 90%;
+        height: 325px;
+        background-color: none;
+    }    
+
+}
