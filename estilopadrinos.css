@@ -520,6 +520,10 @@ video {
 
 @media screen and (max-width: 400px) {
     
+    header {
+        margin-top: 50px;
+    }
+    
     .caja_video {
         margin-left: 5%;
         margin-top: 80px;
