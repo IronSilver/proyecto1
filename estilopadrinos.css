@@ -542,7 +542,7 @@ video {
     }
 
     @keyframes linea__uno {
-        0% {margin-left: 5;}
+        0% {margin-left: 0%;}
      /*   10%{margin-left: 15%;}
         20%{margin-left: 25%;}
         30%{margin-left: 35%;}
@@ -552,8 +552,8 @@ video {
         70%{margin-left: 75%;}
         80%{margin-left: 85%;}
         90%{margin-left: 95%;}*/
-        50%{margin-left: 90%;}
-        100%{margin-left: 5;}
+        50%{margin-left: 70%;}
+        100%{margin-left: 0%;}
     }
     
     .caja_video {
