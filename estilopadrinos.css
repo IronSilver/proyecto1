@@ -522,8 +522,8 @@ video {
     
     h1 {
         width: 100%;
-        margin:auto;
-        color: #fff;
+        text-align: center;
+        color: white;
         font-size: 20px;
         display: block;
     }
@@ -533,7 +533,7 @@ video {
         
         background-color: #01c4e7;
         display: block;
-        width: 15%;
+        width: 20%;
         height: 6px;
         border-radius: 2px;
         animation-name:linea__uno;
@@ -542,7 +542,7 @@ video {
     }
 
     @keyframes linea__uno {
-        0% {margin-left: 0%;}
+        0% {margin-left: 5;}
      /*   10%{margin-left: 15%;}
         20%{margin-left: 25%;}
         30%{margin-left: 35%;}
@@ -552,15 +552,15 @@ video {
         70%{margin-left: 75%;}
         80%{margin-left: 85%;}
         90%{margin-left: 95%;}*/
-        50%{margin-left: 100%;}
-        100%{margin-left: 0%;}
+        50%{margin-left: 90%;}
+        100%{margin-left: 5;}
     }
     
     .caja_video {
         margin-left: 5%;
         margin-top: 80px;
         display: block;
-        width: 100%;
+        width: 80%;
         height: 325px;
         background-color: none;
     }    
