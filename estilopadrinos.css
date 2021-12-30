@@ -522,7 +522,7 @@ video {
     
     h1 {
         width: 90%;
-        margin-left: 32%;
+        margin:auto;
         color: white;
         font-size: 30px;
         display: inline-block;
