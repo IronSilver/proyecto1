@@ -520,7 +520,41 @@ video {
 
 @media screen and (max-width: 1080px) {
     
+    h1 {
+        width: 90%;
+        margin-left: 32%;
+        color: white;
+        font-size: 30px;
+        display: inline-block;
+    }
     
+    
+    #linea__uno {
+        
+        background-color: #01c4e7;
+        display: block;
+        width: 15%;
+        height: 6px;
+        border-radius: 2px;
+        animation-name:linea__uno;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes linea__uno {
+        0% {margin-left: 5%;}
+     /*   10%{margin-left: 15%;}
+        20%{margin-left: 25%;}
+        30%{margin-left: 35%;}
+        40%{margin-left: 45%;}
+        50%{margin-left: 55%;}
+        60%{margin-left: 65%;}
+        70%{margin-left: 75%;}
+        80%{margin-left: 85%;}
+        90%{margin-left: 95%;}*/
+        50%{margin-left: 95%;}
+        100%{margin-left: 5%;}
+    }
     
     .caja_video {
         margin-left: 5%;
