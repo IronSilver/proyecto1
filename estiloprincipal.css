@@ -41,23 +41,30 @@ h1 {
 }
 
 
+#todo {
+    width: 100%;
+    height: 900px;
+    background-color: none;
+    margin-top: 100px;
+    padding-top: 0;
+}
+
 
 .menu {
     text-decoration: none;
-    margin-left: 4%;
-    margin-top: 5%;
-    display: flexbox;
+    display: inline-block;
     background-color: none;
     width: 20%;
+    height: 100%;
+    margin-left: 5%;
     border: 3px solid chartreuse;
     border-radius: 5px;
-    display: inline-block;
 
 }
 
 .menu__cajas {
     color: white;
-    margin-top: 7.9%;
+    margin-top: 21px;
     font-family: Impact ;
     font-size: 20px;
     text-align: center;
@@ -74,13 +81,21 @@ h1 {
 
 
 .collage {
+    background-color: blue;
     color: white;
-    display: flexbox;
-    margin-top: -70.1%;
-    margin-left: 32%;
-    width: 66%;
+    display: inline-block;
+    width: 100%;
     height: 400px;
 }
+
+aside {
+    height: 900px;
+    width: 66%;
+    margin-left: 5%;
+    background-color: none;
+    display: inline-block;
+}
+
 
 img {
     height: 25%; 
@@ -89,33 +104,86 @@ img {
                      /* aquí comiezo a darle más width de lo normal a algunas imágenes para
                          que estén acomodadas en línea */
 
+#padrinos_magicos {
+    width: 19%;
+}
+
+#un_show_mas {
+    width: 21%;
+}
+
+#hora_aventura {
+    width: 20%;
+}
+
+#kick_gunter {
+    width: 21%;
+}
+
 #gumbal {
-    width: 17.85%;               
+    width: 19%;               
 }
                                 
 #kid {
-    width: 18.1%;
-}                                               
+    width: 21%;
+}      
+
+#recreo {
+    width: 21%;
+}
+
+#Jonny_Bravo {
+    width: 20%;
+}
+
+#tom_jerry {
+    width: 20%;
+}
 
 #ben {
     width: 18%;
 }
 
+#scooby {
+    width: 21%;
+}
+
+#mucha_lucha {
+    width: 20%;
+}
+
+#randy {
+    width: 19%;
+}
+
 #dragon {
-    width:19.25%;
+    width:19%;
 }
 
 #phineas {
-    width: 21.6%;
+    width: 21%;
+}
+
+#pantera_rosa {
+    width: 19%;
+}
+
+#dexter{
+    width: 20%;
 }
 
 #coraje {
-    width: 19.25%;
+    width: 19%;
 }
 
 #chicas__poderosas {
-    width: 18.9%;
+    width: 19%;
 }
+
+#billy_mandy {
+    width: 23%;
+}
+
                             /* aquí acabé de alinear las imágenes usando más width */
 
 
@@ -128,9 +196,11 @@ img {
     margin-top: 10px;
     color: white;
     font-size: 20px;
-    width: 100%;
-    height: 185px;
+    width: 97%;
+    height: 175px;
     overflow: auto;
+    padding: 10px;
+    text-align: justify;
 }
 
 .texto_form {
@@ -141,11 +211,59 @@ img {
     background-color: black;
     color: white;
     border: 3px solid white;
+    width: 30%;
 }
 
 #boton {
+    width: 31.25%;
+    height: 35px;
+    margin-top: 5px;
     margin-bottom: 10px;
-    height: 40px;
     background-color:white;
+    border: 3px solid white;
     color:black;
+}
+
+#boton:hover {
+    background-color: rgb(189, 189, 189);
+    border: 3px solid rgb(189, 189, 189);
+}
+
+
+.form {
+    color: #fff;
+}
+
+hr {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+    .collage {
+        
+        height: 350px;
+        
+    }
+
+
+    #todo {
+        padding-top: 0;
+    }
+
+    .menu__cajas {
+        font-size: 18px;
+    }
+
+    .menu {
+        height: 96%;
+    }
+
+    #respuesta {
+        height: 185px;
+    }
+
+
 }
