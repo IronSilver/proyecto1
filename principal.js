@@ -1,16 +1,21 @@
 var cuenta = 0;
+var comentarios = [];
+var guardo
 
 function leeTexto(){
-    var nombre = document.getElementById("nombre").value;
-    var mensaje = document.getElementById("mensaje").value;
+    var respuesta = document.getElementById("respuesta");
+    var nombre = document.getElementById("nombre");
+    var mensaje = document.getElementById("mensaje");
+ // comentarios.push(nombre + ":<br>" + mensaje + "<br><br>"); 
+ // document.getElementById("respuesta").innerHTML = comentarios; 
 
-    document.getElementById("respuesta").innerHTML= nombre + ":<br>" + mensaje + "<br>";
+    comentarios.unshift(nombre.value + ":<br>" + mensaje.value + "<br><br>") ; 
 
-    cuenta = cuenta + 1;
-    if(cuenta >= 1){
+    
+    respuesta.innerHTML = comentarios;
 
-        respuesta = nombre + ":<br>" + mensaje + "<br>";
-    }
+    document.getElementById("nombre").value = "";
+    document.getElementById("mensaje").value = "";
+    
     
 }
-
