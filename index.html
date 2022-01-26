@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>__</title>
+        <title>Caricaturas de tu infancia</title>
         <meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="estiloprincipal.css">
     </head>
     <body>
+        <script src="principal.js"></script>
         <header>
             <div class="lineas"></div>
             <h1>Caricaturas de tu infancia</h1>
             <div class="lineas"></div>
         </header>
+        <div id="todo">
         <nav class="menu">
             <div class="menu__cajas"><a href="PadrinosMagicos.html" class="enlaces">Los padrinos mágicos</a> </div>
-            <div class="menu__cajas"><a href="#" class="enlaces">Un Show más</a></div>
+            <div class="menu__cajas"><a href="Un_Show_Mas.html" class="enlaces">Un Show más</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">Hora de aventura</a></div>
-            <div class="menu__cajas"><a href="#" class="enlaces">Kick Buttowsky</a></div>
+            <div class="menu__cajas"><a href="KickButtowski.html" class="enlaces">Kick Buttowsky</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">El mundo de Gumbal</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">Kid VS Kat</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">Recreo</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">Jhonny Bravo</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">Tom y Jerry</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">Ben 10</a></div>
-            <div class="menu__cajas"><a href="#" class="enlaces">Scooby Doo</a></div>
-            <div class="menu__cajas"><a href="#" class="enlaces">Mucha Lucha</a></div>
-            <div class="menu__cajas"><a href="#" class="enlaces">Ninja Total</a></div>
+            <div class="menu__cajas"><a href="Scooby.html" class="enlaces">Scooby Doo</a></div>
+            <div class="menu__cajas"><a href="MuchaLucha.html" class="enlaces">Mucha Lucha</a></div>
+            <div class="menu__cajas"><a href="NinjaTotal.html" class="enlaces">Ninja Total</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">Dragón oxidental</a></div>
-            <div class="menu__cajas"><a href="#" class="enlaces">Phineas y ferb</a></div>
+            <div class="menu__cajas"><a href="#" class="enlaces">Phineas y Ferb</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">La pantera rosa</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">Laboratorio de Dexter</a></div>
-            <div class="menu__cajas"><a href="#" class="enlaces">Coraje, el perro cobarde</a></div>
-            <div class="menu__cajas"><a href="#" class="enlaces">Las chicas superpoderosas</a></div>
+            <div class="menu__cajas"><a href="Coraje_el_perro_cobarde.html" class="enlaces">Coraje,el perro cobarde</a></div>
+            <div class="menu__cajas"><a href="#" class="enlaces" id="Chicas">Chicas superpoderosas</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">Billy y Mandy</a></div>
         </nav>
         <aside>
             <div class="collage">
-                <img src="padrinosmagicos.jpg">
-                <img src="unshowmas.jpg">
-                <img src="hora_aventura.jpg">
-                <img src="kikygunter.png">
-                <img id="gumbal" src="gumbal.jpg">
-                <img id="kid" src="kidvskat.jpg">
-                <img src="recreo1.jpg">
-                <img src="Jonny.jpg.crdownload">
-                <img src="tomyjerry.jpg">
-                <img id="ben" src="ben.jpg">
-                <img src="scooby1.png.crdownload">
-                <img src="Mucha-Lucha.jpg">
-                <img src="randy.jpg">
-                <img id="dragon" src="dragon_oxidental.jpg">
-                <img id="phineas" src="https://i1.wp.com/wipy.tv/wp-content/uploads/2021/05/piden-no-usar-a-baljeet-como-insulto.jpg?w=1000&ssl=1">
-                <img src="pantera_rosa.jpg">
-		<img src="dexter.jpg">    
-                <img id="coraje" src="coraje.jpg">  
-                <img id="chicas__poderosas" src="chicas_superpoderosas.jpg">  
-                <img src="billiymandy.jpg">  
-		    
-		<form action="">
+                <img src="padrinosmagicos.jpg" id="padrinos_magicos">
+                <img src="unshowmas.jpg" id="un_show_mas">
+                <img src="hora_aventura.jpg" id="hora_aventura">
+                <img src="kikygunter.png" id="kick_gunter">
+                <img src="gumbal.jpg" id="gumbal">
+                <img src="kidvskat.jpg" id="kid">
+                <img src="recreo1.jpg" id="recreo">
+                <img src="Jonny.jpg.crdownload" id="Jonny_Bravo">
+                <img src="tomyjerry.jpg" id="tom_jerry">
+                <img src="ben.jpg" id="ben">
+                <img src="scooby1.png.crdownload" id="scooby">
+                <img src="Mucha-Lucha.jpg" id="mucha_lucha">
+                <img src="randy.jpg" id="randy">
+                <img src="dragon_oxidental.jpg" id="dragon" >
+                <img src="phineas_ferb.jpg" id="phineas">
+                <img src="pantera_rosa.jpg" id="pantera_rosa">
+                <img src="dexter.jpg" id="dexter">   
+                <a href="Coraje_el_perro_cobarde.html"><img src="coraje.jpg" id="coraje"></a> 
+                <img src="chicas_superpoderosas.jpg" id="chicas__poderosas">  
+                <img src="billiymandy.jpg" id="billy_mandy">  
+            </div> 
+
+                <form action="" class="form" method="post">
                     <div class="nombre">
                         <label for="nombre" class="texto_form">Escribe tu nombre:</label><br>
                         <input type="text" id="nombre" class="cuadros">
@@ -70,9 +73,11 @@
                     </div>
                 </form>
                 <hr>
-		<div id="respuesta" class="cuadros"></div>
-                
-            </div>
+                <div id="respuesta" class="cuadros" ></div>
         </aside>
+        
+    </div>
     </body>
 </html>
+
+
