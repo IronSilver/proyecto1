@@ -3,7 +3,9 @@
     <head>
         <title>Caricaturas de tu infancia</title>
         <meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="estiloprincipal.css">
+	<link rel="stylesheet" type="text/css" href="estiloprincipal.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
         <script src="principal.js"></script>
@@ -59,21 +61,12 @@
                 <img src="billiymandy.jpg" id="billy_mandy">  
             </div> 
 
-                <form action="" class="form" method="post">
-                    <div class="nombre">
-                        <label for="nombre" class="texto_form">Escribe tu nombre:</label><br>
-                        <input type="text" id="nombre" class="cuadros">
-                    </div>
-                    <div>
-                        <label for="mensaje" class="texto_form">Escribe tu mensaje:</label><br>
-                        <textarea id="mensaje" cols="30" rows="5" class="cuadros"></textarea>
-                    </div>
-                    <div class="caja_boton">
-                        <input type="button" class="texto_form" id="boton" value="Enviar mensaje" onclick="leeTexto()">
-                    </div>
-                </form>
-                <hr>
-                <div id="respuesta" class="cuadros" ></div>
+            <form action="https://formsubmit.co/opablodavid@gmail.com" method="POST">
+		    <input type="text" name="name" required>
+		    <input type="email" name="email" required>
+		    <input type="text" name="comentario" required>
+            <button type="submit">Send</button>
+       </form>
         </aside>
         
     </div>
